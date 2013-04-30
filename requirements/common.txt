@@ -1,0 +1,2 @@
+# requirements/common.txt
+# Use 'pip freeze' for a list of your project's dependencies

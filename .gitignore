@@ -1,0 +1,11 @@
+# ignore virtualenv
+env/
+
+# ignore compiled python
+*.pyc
+
+# ignore secret key
+secret_key.py
+
+# ignore sublime workspace
+*.sublime-workspace
