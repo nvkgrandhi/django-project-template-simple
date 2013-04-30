@@ -11,5 +11,4 @@ This is a general-purpose project template for Django. This is my go-to template
 
 This code is licensed under [GPLv3](http://www.gnu.org/licenses/gpl-3.0.html). So feel free to tune it to your needs. :)
 
-&#9775; 2013 Tosh Goodson
-[toshgoodson.com](http://toshgoodson.com)
+&#9775; 2013 Tosh Goodson, [toshgoodson.com](http://toshgoodson.com)
