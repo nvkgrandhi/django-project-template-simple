@@ -1,0 +1,1 @@
+Location for incomplete static resources.

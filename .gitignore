@@ -1,11 +1,13 @@
 # ignore virtualenv
-env/
+/env/
 
 # ignore compiled python
 *.pyc
 
-# ignore secret key
-secret_key.py
+# ignore static files (they should go in their own repo)
+# Uncomment the following line when using project (or not if you want to use git submodules)
+# /static/
 
-# ignore sublime workspace
+# ignore sublime workspace and project
 *.sublime-workspace
+*.sublime-project

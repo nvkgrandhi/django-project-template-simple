@@ -1,0 +1,1 @@
+Location for deployment scripts. I highly recommend using some kind of script even if your project is small.
