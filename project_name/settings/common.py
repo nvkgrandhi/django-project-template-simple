@@ -10,8 +10,11 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
-# import the secret key from secret_key.py (a file not stored in the repo)
-from secret_key import *
+# Load secret key from environment variable. (So it doesn't go in the repo)
+# Alternatively you could load the secret key from a separate file, but I've
+# found that setting environment variables is a lot easier to manage than
+# having additional files not in the repo. ~Tosh
+SECRET_KEY = os.environ['DJANGO_SECRET_KEY']
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
