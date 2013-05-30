@@ -1,5 +1,6 @@
 # Django settings for {{ project_name }} project.
 import os
+import sys
 
 DEBUG = False
 TEMPLATE_DEBUG = DEBUG
@@ -50,6 +51,11 @@ MEDIA_URL = ''
 
 # the path to the project directory (here it's one directory up from this settings file)
 PROJECT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+
+# Add this project to the python path so we don't have to reference our project
+# by name everywhere.
+# So instead of 'myproject.apps.whatever' we only need to say 'apps.whatever'.
+sys.path.append(PROJECT_PATH)
 
 # the path to the workspace directory, sometimes useful to have (here it's one directory up from project)
 WORKSPACE_PATH = os.path.join(PROJECT_PATH, '..')
