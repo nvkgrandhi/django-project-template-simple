@@ -1,2 +1,4 @@
 # requirements/prod.txt
--r common.txt # include common dependencies
+
+# include common dependencies
+-r common.txt
